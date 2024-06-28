@@ -1,0 +1,191 @@
+/* styles.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and general layout */
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2em;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin-left: 2em;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .nav-links a:hover {
+    color: #f90;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url(kooonnnnn.jpg) no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 8em 2em;
+}
+
+.hero-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.0em;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.hero-section .cta-button {
+    background: #f90;
+    color: #fff;
+    padding: 0.25em 1.5em;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.hero-section .cta-button:hover {
+    background: #c70;
+}
+
+/* About Section */
+.about-section {
+    padding: 1em 0.5em;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+/* Services Section */
+.services-section {
+    padding: 4em 2em;
+    text-align: center;
+    background: #54d4eb;
+}
+
+.services-section h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.service {
+    max-width: 300px;
+    text-align: left;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.service p {
+    font-size: 1.1em;
+}
+
+/* Gallery Section */
+.gallery-section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.gallery-section h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.gallery-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Centered Image Section */
+.centered-image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Adjust the height as needed */
+    background: #ffffff;
+    padding: 4em 2em;
+}
+
+.centered-image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+
